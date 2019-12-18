@@ -14,10 +14,15 @@
 		0A4FEA6123AA8A5600D78987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4FEA6023AA8A5600D78987 /* Assets.xcassets */; };
 		0A4FEA6423AA8A5600D78987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4FEA6223AA8A5600D78987 /* LaunchScreen.storyboard */; };
 		0A4FEA6F23AA8A5600D78987 /* SeasonalityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FEA6E23AA8A5600D78987 /* SeasonalityTests.swift */; };
+		0A90A5CC23AAB7D600FE8E43 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A90A5CB23AAB7D600FE8E43 /* WelcomeViewController.swift */; };
 		0ADC13BD23AA8B580036DE3B /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13BC23AA8B580036DE3B /* Secrets.swift */; };
 		0ADC13BF23AA8D080036DE3B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13BE23AA8D080036DE3B /* Extensions.swift */; };
 		0ADC13C123AA8ECE0036DE3B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13C023AA8ECE0036DE3B /* Utilities.swift */; };
 		0ADC13C423AA9A950036DE3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ADC13C323AA9A950036DE3B /* GoogleService-Info.plist */; };
+		0ADC13C723AAAFF80036DE3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13C623AAAFF80036DE3B /* LoginViewController.swift */; };
+		0ADC13C923AAB00D0036DE3B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13C823AAB00D0036DE3B /* SignUpViewController.swift */; };
+		0ADC13CB23AAB03E0036DE3B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13CA23AAB03E0036DE3B /* LoginView.swift */; };
+		0ADC13CD23AAB04D0036DE3B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13CC23AAB04D0036DE3B /* SignUpView.swift */; };
 		8C8D0DF26EDD6F86EDBCE9B0 /* Pods_SeasonalityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8900433DBA99CE319ABA7635 /* Pods_SeasonalityTests.framework */; };
 		90ED34CFF2D42D3E71C8DEAF /* Pods_Seasonality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3AA2D15EFB4E87D6CD56CA /* Pods_Seasonality.framework */; };
 /* End PBXBuildFile section */
@@ -45,10 +50,15 @@
 		0A4FEA6A23AA8A5600D78987 /* SeasonalityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasonalityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4FEA6E23AA8A5600D78987 /* SeasonalityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonalityTests.swift; sourceTree = "<group>"; };
 		0A4FEA7023AA8A5600D78987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A90A5CB23AAB7D600FE8E43 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		0ADC13BC23AA8B580036DE3B /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		0ADC13BE23AA8D080036DE3B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0ADC13C023AA8ECE0036DE3B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0ADC13C323AA9A950036DE3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0ADC13C623AAAFF80036DE3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0ADC13C823AAB00D0036DE3B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0ADC13CA23AAB03E0036DE3B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0ADC13CC23AAB04D0036DE3B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		398139325EA3332B65FB18A0 /* Pods-SeasonalityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeasonalityTests.release.xcconfig"; path = "Target Support Files/Pods-SeasonalityTests/Pods-SeasonalityTests.release.xcconfig"; sourceTree = "<group>"; };
 		3CA528615A6F806B976B1BC2 /* Pods-Seasonality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seasonality.debug.xcconfig"; path = "Target Support Files/Pods-Seasonality/Pods-Seasonality.debug.xcconfig"; sourceTree = "<group>"; };
 		4E3AA2D15EFB4E87D6CD56CA /* Pods_Seasonality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seasonality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +148,9 @@
 		0ADC13B723AA8B1D0036DE3B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0ADC13C623AAAFF80036DE3B /* LoginViewController.swift */,
+				0ADC13C823AAB00D0036DE3B /* SignUpViewController.swift */,
+				0A90A5CB23AAB7D600FE8E43 /* WelcomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -146,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				0A4FEA5B23AA8A5400D78987 /* ViewController.swift */,
+				0ADC13CA23AAB03E0036DE3B /* LoginView.swift */,
+				0ADC13CC23AAB04D0036DE3B /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -394,9 +409,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADC13C723AAAFF80036DE3B /* LoginViewController.swift in Sources */,
 				0ADC13C123AA8ECE0036DE3B /* Utilities.swift in Sources */,
+				0A90A5CC23AAB7D600FE8E43 /* WelcomeViewController.swift in Sources */,
+				0ADC13C923AAB00D0036DE3B /* SignUpViewController.swift in Sources */,
+				0ADC13CB23AAB03E0036DE3B /* LoginView.swift in Sources */,
 				0ADC13BF23AA8D080036DE3B /* Extensions.swift in Sources */,
 				0A4FEA5C23AA8A5400D78987 /* ViewController.swift in Sources */,
+				0ADC13CD23AAB04D0036DE3B /* SignUpView.swift in Sources */,
 				0ADC13BD23AA8B580036DE3B /* Secrets.swift in Sources */,
 				0A4FEA5823AA8A5400D78987 /* AppDelegate.swift in Sources */,
 				0A4FEA5A23AA8A5400D78987 /* SceneDelegate.swift in Sources */,

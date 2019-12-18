@@ -1,6 +1,6 @@
 
 import UIKit
-//import Firebase
+import Firebase
 
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
@@ -41,7 +41,7 @@ extension UIViewController {
 //            }
 //        }
 //    }
-    
+//
 //    @objc func handleSignOutButtonTapped() {
 //        let signOutAction = UIAlertAction(title: "Sign Out", style: .destructive) { (action) in
 //            do {
