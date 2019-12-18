@@ -14,12 +14,12 @@ struct MarketAPIClient {
                     lat: Double?,
                     long: Double?,
                     completionHandler: @escaping (Result<[Market], AppError>) -> Void) {
-        let urlString = ""
+        var urlString = ""
         
-        if city != nil {
-            let urlString = "https://data.ny.gov/resource/qq4h-8p86.json?city=\(city)"
+        if let city = city {
+            urlString = "https://data.ny.gov/resource/qq4h-8p86.json?city=\(city)"
         } else {
-            let urlString = "https://data.ny.gov/resource/qq4h-8p86.json?lat=\(lat),long=\(long)"
+            urlString = "https://data.ny.gov/resource/qq4h-8p86.json?lat=\(lat),long=\(long)"
         }
         
         print(urlString)
@@ -35,7 +35,7 @@ struct MarketAPIClient {
             case let .success(data):
                 do {
                     let Markets = try Market.getMarkets(from: data)
-                    completionHandler(.success(Markets))
+                    completionHandler(.success(Markets ?? []))
                 }
                 catch {
                     completionHandler(.failure(.couldNotParseJSON(rawError: error)))

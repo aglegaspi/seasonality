@@ -33,7 +33,6 @@ struct Market: Codable {
         case fc, fca, latitude, longitude, georeference
     }
     
-    #warning("this can be used as a placeholder for to-do or alert others where you left off")
     static func getMarkets(from data: Data) throws -> [Market]? {
         do {
             let response = try JSONDecoder().decode([Market].self, from: data)

@@ -1,0 +1,1296 @@
+
+[
+    {
+        "county": "Kings",
+        "market_name": "Bartel-Pritchard Square Sunday Greenmarket",
+        "location": "205 Prospect Park at West 15th St. inside park",
+        "address_line_1": "Prospect Park West and 14th Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11215",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket/brooklyn/bartel-pritchard-square-wed"
+        },
+        "operation_hours": "Sunday  9am-3pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.66094",
+        "longitude": "-73.97979",
+        "georeference": {
+            "latitude": "40.66094",
+            "longitude": "-73.97979"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Kensington Youthmarket",
+        "location": "McDonald Ave. and Albermarle Rd",
+        "address_line_1": "Fort Hamilton Pkwy and East 5th St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11218",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/youthmarket"
+        },
+        "operation_hours": "Saturday  8am-3pm",
+        "operation_season": "July 13-November 23",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.64917",
+        "longitude": "-73.97659",
+        "georeference": {
+            "latitude": "40.64917",
+            "longitude": "-73.97659"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Bushwick Rheingold Archway Farmers' Market",
+        "location": "553 Bushwick Ave.",
+        "address_line_1": "533 Bushwick Avenue",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11206",
+        "contact": "Luciano Contreras",
+        "phone": "7184164568",
+        "market_link": {
+            "url": "http://www.riseboro.org"
+        },
+        "operation_hours": "Sunday  10am-4pm",
+        "operation_season": "May 19-December 1",
+        "operation_months_code": "P/M/X",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.69958",
+        "longitude": "-73.93574",
+        "georeference": {
+            "latitude": "40.69958",
+            "longitude": "-73.93574"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Harvest Home Coney Island Farm Stand",
+        "location": "Ocean Parkway btwn Ave. Z & Shore Rd.",
+        "address_line_1": "Ocean Pkwy and Avenue Z",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11235",
+        "contact": "Maritza Owens",
+        "phone": "2128283361",
+        "market_link": {
+            "url": "http://www.harvesthomefm.org"
+        },
+        "operation_hours": "Fri  8am-4pm",
+        "operation_season": "June 5-November 20",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.58669",
+        "longitude": "-73.96578",
+        "georeference": {
+            "latitude": "40.58669",
+            "longitude": "-73.96578"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Urban Oasis Farmers' Market",
+        "location": "Kingsboro Psychiatric Center, 681 Clarkson Ave. btwn Troy Ave & 43rd St.",
+        "address_line_1": "681 Clarkson Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11203",
+        "contact": "Michelle Almonte",
+        "phone": "7182217907",
+        "operation_hours": "Wed  2pm-5:30pm",
+        "operation_season": "June 26-November 6",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "N",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.65621",
+        "longitude": "-73.93741",
+        "georeference": {
+            "latitude": "40.65621",
+            "longitude": "-73.93741"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Brooklyn Grange Farm Stand @ SSP",
+        "location": "850 3rd Ave, rooftop",
+        "address_line_1": "850 3rd Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11232",
+        "contact": "Stephanie Diaz",
+        "phone": "6466250318",
+        "market_link": {
+            "url": "http://www.brooklyngrangefarm.org"
+        },
+        "operation_hours": "Sunday 10am-3pm",
+        "operation_season": "June 16-October 27",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "N",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.6594",
+        "longitude": "-74.0044",
+        "georeference": {
+            "latitude": "40.6594",
+            "longitude": "-74.0044"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Carroll Gardens Greenmarket",
+        "location": "330 Carroll St. btwn Smith & Court Sts.",
+        "address_line_1": "Carroll St and Court St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11231",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket/brooklyn/carroll-gardens"
+        },
+        "operation_hours": "Sunday  8am-2pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.68106",
+        "longitude": "-73.99653",
+        "georeference": {
+            "latitude": "40.68106",
+            "longitude": "-73.99653"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Red Hook Farm Stand I",
+        "location": "560 Columbia St. , Near the BASIS Independent School",
+        "address_line_1": "560 Columbia St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11231",
+        "contact": "Saara Nafici",
+        "phone": "7188586782",
+        "market_link": {
+            "url": "http://www.added-value.org/farmers-market"
+        },
+        "operation_hours": "Saturday  10am-3pm",
+        "operation_season": "June 15-November 16",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.67237",
+        "longitude": "-74.00884",
+        "georeference": {
+            "latitude": "40.67237",
+            "longitude": "-74.00884"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Williamsburg Greenmarket",
+        "location": "33 Lee Ave. at Taylor St.",
+        "address_line_1": "199 Taylor St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11211",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket"
+        },
+        "operation_hours": "Thursday  8am-4pm",
+        "operation_season": "July 11-November 28",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.70643",
+        "longitude": "-73.96211",
+        "georeference": {
+            "latitude": "40.70643",
+            "longitude": "-73.96211"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Borough Park Greenmarket",
+        "location": "4910 14th Ave. btwn 49th & 50th Sts.",
+        "address_line_1": "14th Ave and 49th St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11219",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket"
+        },
+        "operation_hours": "Thursday  8am-3pm",
+        "operation_season": "July 11-November 21",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.6337",
+        "longitude": "-73.98992",
+        "georeference": {
+            "latitude": "40.6337",
+            "longitude": "-73.98992"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "East New York Market II",
+        "location": "New Lots & Georgia Aves. Brooklyn",
+        "address_line_1": "New Lots Ave and Georgia Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11207",
+        "contact": "Ana Aguirre",
+        "phone": "7186497979",
+        "market_link": {
+            "url": "http://www.eastnewyorkfarms.org"
+        },
+        "operation_hours": "Wed  1:30pm- 6:30pm",
+        "operation_season": "July 5-October 30",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.66075",
+        "longitude": "-73.8955",
+        "georeference": {
+            "latitude": "40.66075",
+            "longitude": "-73.8955"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Project EATS DOH Farmacy Farm Stand",
+        "location": "259 Bristol St.  Brooklyn",
+        "address_line_1": "259 Bristol Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11212",
+        "contact": "Leanne Demery",
+        "phone": "2126121528",
+        "market_link": {
+            "url": "http://www.projecteats.org"
+        },
+        "operation_hours": "Tue/Thu  10am-4pm",
+        "operation_season": "May 7-November 12",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.6648",
+        "longitude": "-73.91138",
+        "georeference": {
+            "latitude": "40.6648",
+            "longitude": "-73.91138"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Isabahlia-Rockaway Ave Farm Stand",
+        "location": "514 Rockaway Avenue Brooklyn",
+        "address_line_1": "514 Rockaway Avenue",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11212",
+        "contact": "Brenda Thompson-Duchene",
+        "phone": "7184983174",
+        "market_link": {
+            "url": "http://www.isabahlialoefinc.org"
+        },
+        "operation_hours": "Fri/Sat 8am-3pm",
+        "operation_season": "June 28-October 26",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.66751",
+        "longitude": "-73.91021",
+        "georeference": {
+            "latitude": "40.66751",
+            "longitude": "-73.91021"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "East New York Farmers' Market I",
+        "location": "613 New Lots Ave & Schench Ave. Brooklyn",
+        "address_line_1": "613 New Lots Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11207",
+        "contact": "Ana Aguirre",
+        "phone": "7186497979",
+        "market_link": {
+            "url": "http://www.eastnewyorkfarms.org"
+        },
+        "operation_hours": "Saturday  9am-3pm",
+        "operation_season": "June 29-November 30",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.6647",
+        "longitude": "-73.88659",
+        "georeference": {
+            "latitude": "40.6647",
+            "longitude": "-73.88659"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Harvest Home Kings Co. Hospital Farmers' Market",
+        "location": "Clarkson Ave btwn E 37th & E 38th Sts.",
+        "address_line_1": "511 Clarkson Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11203",
+        "contact": "Maritza Owens",
+        "phone": "2128283361",
+        "market_link": {
+            "url": "http://www.harvesthomefm.org"
+        },
+        "operation_hours": "Wednesday  8am-6pm",
+        "operation_season": "June 5-November 20",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.65588",
+        "longitude": "-73.94245",
+        "georeference": {
+            "latitude": "40.65588",
+            "longitude": "-73.94245"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Grand Army Plaza Greenmarket",
+        "location": "Flatbush Ave. & Prospect Park West",
+        "address_line_1": "Flatbush Ave and Grand Army Plaza",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11238",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket/brooklyn-grand-army-plaza"
+        },
+        "operation_hours": "Saturday  8am-4pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.67412",
+        "longitude": "-73.9695",
+        "georeference": {
+            "latitude": "40.67412",
+            "longitude": "-73.9695"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "6th Ave. Sunset Park Greenmarket",
+        "location": "602 44th St. at 6th Ave.",
+        "address_line_1": "44th Street at 6th Avenue",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11220",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket"
+        },
+        "operation_hours": "Saturday  8am-3pm",
+        "operation_season": "June 22-November 23",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.64711",
+        "longitude": "-74.00463",
+        "georeference": {
+            "latitude": "40.64711",
+            "longitude": "-74.00463"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Brownsville Pitkin Youthmarket",
+        "location": "Pitkin Ave. & Thomas Boyland St.",
+        "address_line_1": "Pitkin Avenue and Thomas Boyland Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11212",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/youthmarket"
+        },
+        "operation_hours": "Saturday  9am-2pm",
+        "operation_season": "July 13-November 23",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.66926",
+        "longitude": "-73.91356",
+        "georeference": {
+            "latitude": "40.66926",
+            "longitude": "-73.91356"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Red Hook Farm Stand II",
+        "location": "110 W 9th St. Brooklyn",
+        "address_line_1": "110 West 9th Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11231",
+        "contact": "Saara Nafici",
+        "phone": "7188586782",
+        "market_link": {
+            "url": "http://www.added-value.org/farmers-market"
+        },
+        "operation_hours": "Wednesday  3pm-8pm",
+        "operation_season": "June 12-November 13",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.67596",
+        "longitude": "-74.0022",
+        "georeference": {
+            "latitude": "40.67596",
+            "longitude": "-74.0022"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Park Slope Farmers' Market",
+        "location": "289 4th Street at 5th Ave.  near PS 51",
+        "address_line_1": "289 4th Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11215",
+        "contact": "Miriam Haas",
+        "phone": "9149234837",
+        "market_link": {
+            "url": "http://www.downtoearthmarkets.com"
+        },
+        "operation_hours": "Sunday 10am-4pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.6722",
+        "longitude": "-73.98379",
+        "georeference": {
+            "latitude": "40.6722",
+            "longitude": "-73.98379"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "H.S. for Public Service Youth Farm Farm Stand",
+        "location": "600 Kingston Ave.",
+        "address_line_1": "600 Kingston Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11203",
+        "contact": "Steve Frillman",
+        "phone": "2125942155",
+        "market_link": {
+            "url": "http://www.theyouthfarm.org"
+        },
+        "operation_hours": "Wed  2:30pm-6:30pm",
+        "operation_season": "June 19-October 30",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.65952",
+        "longitude": "-73.94255",
+        "georeference": {
+            "latitude": "40.65952",
+            "longitude": "-73.94255"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Bensonhurst Greenmarket",
+        "location": "8118 18th Ave. btwn 81st & 82nd Sts.",
+        "address_line_1": "8100 18th Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11214",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket"
+        },
+        "operation_hours": "Sunday  9am-4pm",
+        "operation_season": "June 2-November 24",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.60958",
+        "longitude": "-73.99944",
+        "georeference": {
+            "latitude": "40.60958",
+            "longitude": "-73.99944"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Graham Avenue Farmers' Market",
+        "location": "Cook St. & Graham Ave.",
+        "address_line_1": "Graham Ave and Cook St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11206",
+        "contact": "Betty Cooney",
+        "phone": "7183876643",
+        "market_link": {
+            "url": "http://www.grahamavenuebid.net"
+        },
+        "operation_hours": "Saturday  9am-5pm",
+        "operation_season": "July 14-October 27",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.70235",
+        "longitude": "-73.94238",
+        "georeference": {
+            "latitude": "40.70235",
+            "longitude": "-73.94238"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Bushwick Farm Stand@Cooper St",
+        "location": "215 Cooper St. Brooklyn",
+        "address_line_1": "215 Cooper St.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11207",
+        "contact": "Luciano Contreras",
+        "phone": "7184164568",
+        "market_link": {
+            "url": "http://www.bushwickfarmersmarket.org"
+        },
+        "operation_hours": "Thursday  12pm-5pm",
+        "operation_season": "May 23-November 21",
+        "operation_months_code": "P/M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.6898",
+        "longitude": "-73.9056",
+        "georeference": {
+            "latitude": "40.6898",
+            "longitude": "-73.9056"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Cypress Hills Youthmarket",
+        "location": "Fulton St. btwn Richmond & Logan Sts.",
+        "address_line_1": "Fulton St. and Logan St.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11208",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/youthmarket"
+        },
+        "operation_hours": "Friday  10am-5pm",
+        "operation_season": "July 12-November 22",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.68206",
+        "longitude": "-73.87788",
+        "georeference": {
+            "latitude": "40.68206",
+            "longitude": "-73.87788"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Brooklyn Borough Hall Saturday Greenmarket",
+        "location": "211 Montague St. Supreme Court Plaza",
+        "address_line_1": "Court St and Montague St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11201",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket"
+        },
+        "operation_hours": "Saturday 8am-4pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.69374",
+        "longitude": "-73.99043",
+        "georeference": {
+            "latitude": "40.69374",
+            "longitude": "-73.99043"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "4th Ave. Sunset Park Greenmarket",
+        "location": "60 4th Ave. btwn 59th & 60th Sts.",
+        "address_line_1": "4th Ave and 60th St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11220",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket"
+        },
+        "operation_hours": "Saturday  8am-3pm",
+        "operation_season": "July 6-November 23",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.64081",
+        "longitude": "-74.01836",
+        "georeference": {
+            "latitude": "40.64081",
+            "longitude": "-74.01836"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Saratoga Farm Stand",
+        "location": "1965-1971 Fulton St. Brooklyn",
+        "address_line_1": "1965 Fulton Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11233",
+        "contact": "Melony Samuels",
+        "phone": "7187733551",
+        "market_link": {
+            "url": "https://www.tcahnyc.org/"
+        },
+        "operation_hours": "Saturday  9am-3pm",
+        "operation_season": "July 6-November 16",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "Y",
+        "fca": "Y",
+        "latitude": "40.67849",
+        "longitude": "-73.9162",
+        "georeference": {
+            "latitude": "40.67849",
+            "longitude": "-73.9162"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Hattie Carthan After Church Farmers' Market",
+        "location": "49 Van Buren St. Hattie Carthan Herban Farm",
+        "address_line_1": "49 Van Buren St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11221",
+        "contact": "Yonnette Fleming",
+        "phone": "7186383566",
+        "market_link": {
+            "url": "http://www.hattiecarthancommunitymarket.com"
+        },
+        "operation_hours": "Sunday  1pm-6pm",
+        "operation_season": "August 4-November 24",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "N",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.69024",
+        "longitude": "-73.94359",
+        "georeference": {
+            "latitude": "40.69024",
+            "longitude": "-73.94359"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Bay Ridge Greenmarket",
+        "location": "9408  3rd Ave. at 95th St. inside Walgreen's parking lot",
+        "address_line_1": "Third Ave and 95th St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11209",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket"
+        },
+        "operation_hours": "Saturday  8am-3pm",
+        "operation_season": "May 4-November 23",
+        "operation_months_code": "P/M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.61724",
+        "longitude": "-74.03362",
+        "georeference": {
+            "latitude": "40.61724",
+            "longitude": "-74.03362"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Isabahlia WINTER Farmers' Market",
+        "location": "The Greenhouse on 93 New Lots Ave. Brooklyn",
+        "address_line_1": "93 New Lots Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11212",
+        "contact": "Brenda Thompson-Duchene",
+        "phone": "7184983174",
+        "market_link": {
+            "url": "http://www.isabahlialoefinc.org"
+        },
+        "operation_hours": "Saturday  8am-1pm",
+        "operation_season": "November 4-December 23",
+        "operation_months_code": "M/X",
+        "fmnp": "N",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.65817",
+        "longitude": "-73.90181",
+        "georeference": {
+            "latitude": "40.65817",
+            "longitude": "-73.90181"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Harvest Home Brower Park Farmers' Market",
+        "location": "Prospect Place & Brooklyn Ave.",
+        "address_line_1": "Prospect Place and Brooklyn Ave.",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11213",
+        "contact": "Maritza Owens",
+        "phone": "2128283361",
+        "market_link": {
+            "url": "http://www.harvesthomefm.org"
+        },
+        "operation_hours": "Thursday  8am-4pm",
+        "operation_season": "June 6-November 14",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.674",
+        "longitude": "-73.94454",
+        "georeference": {
+            "latitude": "40.674",
+            "longitude": "-73.94454"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Fort Greene Park Greenmarket",
+        "location": "Washington Park btwn Dekalb Ave. & Willoughby St.",
+        "address_line_1": "Washington Park and DeKalb Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11205",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket/brooklyn/fort-greene"
+        },
+        "operation_hours": "Saturday  8am-3pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.68962",
+        "longitude": "-73.97313",
+        "georeference": {
+            "latitude": "40.68962",
+            "longitude": "-73.97313"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Brooklyn Borough Hall Thursday Greenmarket",
+        "location": "211 Montague St. Supreme Court Plaza",
+        "address_line_1": "Court St and Montague St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11201",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket"
+        },
+        "operation_hours": "Thursday  8am-4pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.69374",
+        "longitude": "-73.99043",
+        "georeference": {
+            "latitude": "40.69374",
+            "longitude": "-73.99043"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "McGolrick Park Farmers' Market",
+        "location": "Inside McGolrick Park near Pavilion, Btw Driggs & Nassau Aves.",
+        "address_line_1": "103 Russel Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11222",
+        "contact": "Miriam Haas",
+        "phone": "9149234837",
+        "market_link": {
+            "url": "http://www.downtoearthmarkets.com"
+        },
+        "operation_hours": "Sunday  10am-4pm",
+        "operation_season": "May 12-November 24",
+        "operation_months_code": "P/M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.72405",
+        "longitude": "-73.94428",
+        "georeference": {
+            "latitude": "40.72405",
+            "longitude": "-73.94428"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Project EATS MGA Farm Stand",
+        "location": "300 Chester St. & Dumont Ave",
+        "address_line_1": "300 Chester Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11212",
+        "contact": "Shevan Durant",
+        "phone": "2126121528",
+        "market_link": {
+            "url": "http://www.projectEATS.org"
+        },
+        "operation_hours": "Saturday 9am-4pm",
+        "operation_season": "May 4-November 16",
+        "operation_months_code": "P/M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.66432",
+        "longitude": "-73.91036",
+        "georeference": {
+            "latitude": "40.66432",
+            "longitude": "-73.91036"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "TFFJ Fresh Farm Market-Brooklyn",
+        "location": "85 Watkins St Brooklyn",
+        "address_line_1": "85 Watkins St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11212",
+        "contact": "Deja Jones",
+        "phone": "6467193171",
+        "market_link": {
+            "url": "http://www.teensforjustice.org"
+        },
+        "operation_hours": "Tuesday 4:30pm-6:30pm",
+        "operation_season": "Year-Round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.67083",
+        "longitude": "-73.90815",
+        "georeference": {
+            "latitude": "40.67083",
+            "longitude": "-73.90815"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Hattie Carthan Community Farmers' Market",
+        "location": "363-365 Clifton Place Brooklyn",
+        "address_line_1": "365 Clifton Pl",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11216",
+        "contact": "Yonnette Fleming",
+        "phone": "7186383566",
+        "market_link": {
+            "url": "http://www.hattiecarthancommunitymarket.com"
+        },
+        "operation_hours": "Saturday  9am-3pm",
+        "operation_season": "July 14-November 17",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.68965",
+        "longitude": "-73.94879",
+        "georeference": {
+            "latitude": "40.68965",
+            "longitude": "-73.94879"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Cortelyou Greenmarket",
+        "location": "Cortelyou Rd. btwn Argyle & Rugby Rds.",
+        "address_line_1": "1399 Cortelyou Rd",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11226",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket/brooklyn/cortelyou"
+        },
+        "operation_hours": "Sunday  8am-3pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.64044",
+        "longitude": "-73.96617",
+        "georeference": {
+            "latitude": "40.64044",
+            "longitude": "-73.96617"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Bushwick Maria Hernandez Pk Farmers' Market",
+        "location": "Knickerbocker Ave @ Starr & Suydam",
+        "address_line_1": "Knickerbocker Avenue",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11206",
+        "contact": "Luciano Contreras",
+        "phone": "7184164568",
+        "market_link": {
+            "url": "http://www.riseboro.org"
+        },
+        "operation_hours": "Saturday  9am-4pm",
+        "operation_season": "May 18-November 30",
+        "operation_months_code": "P/M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.70257",
+        "longitude": "-73.92497",
+        "georeference": {
+            "latitude": "40.70257",
+            "longitude": "-73.92497"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Harvest Home Clinton Hills Farm Stand",
+        "location": "Lafayette & Washington Aves.",
+        "address_line_1": "267 Lafayette St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11238",
+        "contact": "Maritza Owens",
+        "phone": "2128283361",
+        "market_link": {
+            "url": "http://www.harvesthomefm.org"
+        },
+        "operation_hours": "Tuesday  8am-4pm",
+        "operation_season": "June 4-November 19",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.6882",
+        "longitude": "-73.96615",
+        "georeference": {
+            "latitude": "40.6882",
+            "longitude": "-73.96615"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Project EATS Rockaway Farm Stand",
+        "location": "705 Rockaway Ave.  Brooklyn",
+        "address_line_1": "702 Rockaway Avenue",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11212",
+        "contact": "Shevan Durant",
+        "phone": "2126121528",
+        "market_link": {
+            "url": "http://www.projecteats.org"
+        },
+        "operation_hours": "Friday  10am-4pm",
+        "operation_season": "May 1-November 15",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.66289",
+        "longitude": "-73.90907",
+        "georeference": {
+            "latitude": "40.66289",
+            "longitude": "-73.90907"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Isabahlia Farmers' Market-Livonia Ave",
+        "location": "Powell Street Garden 410 Livonia Ave. Brooklyn",
+        "address_line_1": "410 Livonia Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11212",
+        "contact": "Brenda Thompson-Duchene",
+        "phone": "7184983174",
+        "market_link": {
+            "url": "http://www.isabahlialoefinc.org"
+        },
+        "operation_hours": "Saturday  8am-3pm",
+        "operation_season": "June 29-October 26",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.66353",
+        "longitude": "-73.90226",
+        "georeference": {
+            "latitude": "40.66353",
+            "longitude": "-73.90226"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Flatbush Junction Youthmarket",
+        "location": "Flatbush & Nostrand Aves.",
+        "address_line_1": "Flatbush Ave and Nostrand Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11210",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket"
+        },
+        "operation_hours": "Saturday  8:30am-2pm",
+        "operation_season": "July 13-November 23",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.63286",
+        "longitude": "-73.9477",
+        "georeference": {
+            "latitude": "40.63286",
+            "longitude": "-73.9477"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Brooklyn Borough Hall Tuesday Greenmarket",
+        "location": "211 Montague St. Supreme Court Plaza",
+        "address_line_1": "Court St and Montague St",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11201",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket/brooklyn/boro-hall-sa"
+        },
+        "operation_hours": "Tuesday  8am-4pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.69374",
+        "longitude": "-73.99043",
+        "georeference": {
+            "latitude": "40.69374",
+            "longitude": "-73.99043"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Bartel-Pritchard Square Wed Greenmarket",
+        "location": "205 Prospect Park at West 15th St. inside park",
+        "address_line_1": "Prospect Park West and 14th Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11215",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket"
+        },
+        "operation_hours": "Wednesday 8am-3pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.6616",
+        "longitude": "-73.97939",
+        "georeference": {
+            "latitude": "40.6616",
+            "longitude": "-73.97939"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "Woodhull Hospital Youthmarket",
+        "location": "Marcus Garvey Blvd. and Broadway",
+        "address_line_1": "Marcus Garvey Boulevard and Broadway",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11206",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc/youthmarket"
+        },
+        "operation_hours": "Wednesday  9am-3pm",
+        "operation_season": "July 10-November 27",
+        "operation_months_code": "M",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.70029",
+        "longitude": "-73.94111",
+        "georeference": {
+            "latitude": "40.70029",
+            "longitude": "-73.94111"
+        }
+    },
+    {
+        "county": "Kings",
+        "market_name": "McCarren Park/Greenpoint Greenmarket",
+        "location": "228 N. 12th St at Union Ave",
+        "address_line_1": "N 12th Street and Driggs Ave",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11222",
+        "contact": "Siobahn Keys",
+        "phone": "2127887476",
+        "market_link": {
+            "url": "http://www.grownyc.org/greenmarket/brooklyn/greenpoint-sa"
+        },
+        "operation_hours": "Saturday  8am-2pm",
+        "operation_season": "Year-round",
+        "operation_months_code": "YR",
+        "fmnp": "Y",
+        "snap_status": "Y",
+        "fc": "N",
+        "fca": "Y",
+        "latitude": "40.72046",
+        "longitude": "-73.95269",
+        "georeference": {
+            "latitude": "40.72046",
+            "longitude": "-73.95269"
+        }
+    }
+]

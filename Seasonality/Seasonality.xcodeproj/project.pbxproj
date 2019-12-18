@@ -24,6 +24,7 @@
 		EC9F0AB323AAADC40088E46F /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F0AB223AAADC40088E46F /* AppError.swift */; };
 		EC9F0AB523AAAEA30088E46F /* MarketAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F0AB423AAAEA30088E46F /* MarketAPIClient.swift */; };
 		EC9F0AB723AAAFAA0088E46F /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F0AB623AAAFAA0088E46F /* Market.swift */; };
+		EC9F0AB923AAB8F80088E46F /* marketdata.json in Resources */ = {isa = PBXBuildFile; fileRef = EC9F0AB823AAB8F80088E46F /* marketdata.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		EC9F0AB223AAADC40088E46F /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppError.swift; path = Seasonality/AppError.swift; sourceTree = SOURCE_ROOT; };
 		EC9F0AB423AAAEA30088E46F /* MarketAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MarketAPIClient.swift; path = Seasonality/MarketAPIClient.swift; sourceTree = SOURCE_ROOT; };
 		EC9F0AB623AAAFAA0088E46F /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Market.swift; path = Seasonality/Market.swift; sourceTree = SOURCE_ROOT; };
+		EC9F0AB823AAB8F80088E46F /* marketdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = marketdata.json; path = Seasonality/Views/marketdata.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				EC9F0AB623AAAFAA0088E46F /* Market.swift */,
+				EC9F0AB823AAB8F80088E46F /* marketdata.json */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				0A4FEA6423AA8A5600D78987 /* LaunchScreen.storyboard in Resources */,
 				0ADC13C423AA9A950036DE3B /* GoogleService-Info.plist in Resources */,
 				0A4FEA6123AA8A5600D78987 /* Assets.xcassets in Resources */,
+				EC9F0AB923AAB8F80088E46F /* marketdata.json in Resources */,
 				0A4FEA5F23AA8A5400D78987 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
