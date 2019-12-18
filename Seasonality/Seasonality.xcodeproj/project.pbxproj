@@ -14,12 +14,17 @@
 		0A4FEA6123AA8A5600D78987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4FEA6023AA8A5600D78987 /* Assets.xcassets */; };
 		0A4FEA6423AA8A5600D78987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4FEA6223AA8A5600D78987 /* LaunchScreen.storyboard */; };
 		0A4FEA6F23AA8A5600D78987 /* SeasonalityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FEA6E23AA8A5600D78987 /* SeasonalityTests.swift */; };
-		0ADC13BD23AA8B580036DE3B /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13BC23AA8B580036DE3B /* Secrets.swift */; };
 		0ADC13BF23AA8D080036DE3B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13BE23AA8D080036DE3B /* Extensions.swift */; };
 		0ADC13C123AA8ECE0036DE3B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13C023AA8ECE0036DE3B /* Utilities.swift */; };
 		0ADC13C423AA9A950036DE3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ADC13C323AA9A950036DE3B /* GoogleService-Info.plist */; };
 		8C8D0DF26EDD6F86EDBCE9B0 /* Pods_SeasonalityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8900433DBA99CE319ABA7635 /* Pods_SeasonalityTests.framework */; };
 		90ED34CFF2D42D3E71C8DEAF /* Pods_Seasonality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3AA2D15EFB4E87D6CD56CA /* Pods_Seasonality.framework */; };
+		EC9F0AAF23AAAB2C0088E46F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F0AAE23AAAB2C0088E46F /* Secrets.swift */; };
+		EC9F0AB123AAAD920088E46F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F0AB023AAAD920088E46F /* NetworkManager.swift */; };
+		EC9F0AB323AAADC40088E46F /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F0AB223AAADC40088E46F /* AppError.swift */; };
+		EC9F0AB523AAAEA30088E46F /* MarketAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F0AB423AAAEA30088E46F /* MarketAPIClient.swift */; };
+		EC9F0AB723AAAFAA0088E46F /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F0AB623AAAFAA0088E46F /* Market.swift */; };
+		EC9F0AB923AAB8F80088E46F /* marketdata.json in Resources */ = {isa = PBXBuildFile; fileRef = EC9F0AB823AAB8F80088E46F /* marketdata.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +50,6 @@
 		0A4FEA6A23AA8A5600D78987 /* SeasonalityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasonalityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4FEA6E23AA8A5600D78987 /* SeasonalityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonalityTests.swift; sourceTree = "<group>"; };
 		0A4FEA7023AA8A5600D78987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0ADC13BC23AA8B580036DE3B /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		0ADC13BE23AA8D080036DE3B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0ADC13C023AA8ECE0036DE3B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0ADC13C323AA9A950036DE3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -54,6 +58,12 @@
 		4E3AA2D15EFB4E87D6CD56CA /* Pods_Seasonality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seasonality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8900433DBA99CE319ABA7635 /* Pods_SeasonalityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeasonalityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A0B2CA1BAB765DF90CB58F /* Pods-Seasonality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seasonality.release.xcconfig"; path = "Target Support Files/Pods-Seasonality/Pods-Seasonality.release.xcconfig"; sourceTree = "<group>"; };
+		EC9F0AAE23AAAB2C0088E46F /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		EC9F0AB023AAAD920088E46F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Seasonality/NetworkManager.swift; sourceTree = SOURCE_ROOT; };
+		EC9F0AB223AAADC40088E46F /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppError.swift; path = Seasonality/AppError.swift; sourceTree = SOURCE_ROOT; };
+		EC9F0AB423AAAEA30088E46F /* MarketAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MarketAPIClient.swift; path = Seasonality/MarketAPIClient.swift; sourceTree = SOURCE_ROOT; };
+		EC9F0AB623AAAFAA0088E46F /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Market.swift; path = Seasonality/Market.swift; sourceTree = SOURCE_ROOT; };
+		EC9F0AB823AAB8F80088E46F /* marketdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = marketdata.json; path = Seasonality/Views/marketdata.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +124,7 @@
 				0A4FEA6023AA8A5600D78987 /* Assets.xcassets */,
 				0A4FEA6223AA8A5600D78987 /* LaunchScreen.storyboard */,
 				0A4FEA6523AA8A5600D78987 /* Info.plist */,
-				0ADC13BC23AA8B580036DE3B /* Secrets.swift */,
+				EC9F0AAE23AAAB2C0088E46F /* Secrets.swift */,
 			);
 			path = Seasonality;
 			sourceTree = "<group>";
@@ -131,6 +141,8 @@
 		0ADC13B623AA8B160036DE3B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EC9F0AB623AAAFAA0088E46F /* Market.swift */,
+				EC9F0AB823AAB8F80088E46F /* marketdata.json */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,6 +172,9 @@
 		0ADC13BA23AA8B390036DE3B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				EC9F0AB023AAAD920088E46F /* NetworkManager.swift */,
+				EC9F0AB423AAAEA30088E46F /* MarketAPIClient.swift */,
+				EC9F0AB223AAADC40088E46F /* AppError.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -295,6 +310,7 @@
 				0A4FEA6423AA8A5600D78987 /* LaunchScreen.storyboard in Resources */,
 				0ADC13C423AA9A950036DE3B /* GoogleService-Info.plist in Resources */,
 				0A4FEA6123AA8A5600D78987 /* Assets.xcassets in Resources */,
+				EC9F0AB923AAB8F80088E46F /* marketdata.json in Resources */,
 				0A4FEA5F23AA8A5400D78987 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,12 +410,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9F0AB523AAAEA30088E46F /* MarketAPIClient.swift in Sources */,
 				0ADC13C123AA8ECE0036DE3B /* Utilities.swift in Sources */,
+				EC9F0AAF23AAAB2C0088E46F /* Secrets.swift in Sources */,
 				0ADC13BF23AA8D080036DE3B /* Extensions.swift in Sources */,
+				EC9F0AB123AAAD920088E46F /* NetworkManager.swift in Sources */,
+				EC9F0AB323AAADC40088E46F /* AppError.swift in Sources */,
 				0A4FEA5C23AA8A5400D78987 /* ViewController.swift in Sources */,
-				0ADC13BD23AA8B580036DE3B /* Secrets.swift in Sources */,
 				0A4FEA5823AA8A5400D78987 /* AppDelegate.swift in Sources */,
 				0A4FEA5A23AA8A5400D78987 /* SceneDelegate.swift in Sources */,
+				EC9F0AB723AAAFAA0088E46F /* Market.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
