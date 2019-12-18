@@ -14,6 +14,7 @@
 		0A4FEA6123AA8A5600D78987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A4FEA6023AA8A5600D78987 /* Assets.xcassets */; };
 		0A4FEA6423AA8A5600D78987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4FEA6223AA8A5600D78987 /* LaunchScreen.storyboard */; };
 		0A4FEA6F23AA8A5600D78987 /* SeasonalityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FEA6E23AA8A5600D78987 /* SeasonalityTests.swift */; };
+		0ADC13BD23AA8B580036DE3B /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13BC23AA8B580036DE3B /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0A4FEA6A23AA8A5600D78987 /* SeasonalityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasonalityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4FEA6E23AA8A5600D78987 /* SeasonalityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonalityTests.swift; sourceTree = "<group>"; };
 		0A4FEA7023AA8A5600D78987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ADC13BC23AA8B580036DE3B /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,12 @@
 		0A4FEA5623AA8A5400D78987 /* Seasonality */ = {
 			isa = PBXGroup;
 			children = (
+				0ADC13BB23AA8B490036DE3B /* Other */,
+				0ADC13BA23AA8B390036DE3B /* Networking */,
+				0ADC13B923AA8B330036DE3B /* Persistence */,
+				0ADC13B623AA8B160036DE3B /* Models */,
+				0ADC13B823AA8B230036DE3B /* Views */,
+				0ADC13B723AA8B1D0036DE3B /* Controllers */,
 				0A4FEA5723AA8A5400D78987 /* AppDelegate.swift */,
 				0A4FEA5923AA8A5400D78987 /* SceneDelegate.swift */,
 				0A4FEA5B23AA8A5400D78987 /* ViewController.swift */,
@@ -86,6 +94,7 @@
 				0A4FEA6023AA8A5600D78987 /* Assets.xcassets */,
 				0A4FEA6223AA8A5600D78987 /* LaunchScreen.storyboard */,
 				0A4FEA6523AA8A5600D78987 /* Info.plist */,
+				0ADC13BC23AA8B580036DE3B /* Secrets.swift */,
 			);
 			path = Seasonality;
 			sourceTree = "<group>";
@@ -97,6 +106,48 @@
 				0A4FEA7023AA8A5600D78987 /* Info.plist */,
 			);
 			path = SeasonalityTests;
+			sourceTree = "<group>";
+		};
+		0ADC13B623AA8B160036DE3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0ADC13B723AA8B1D0036DE3B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0ADC13B823AA8B230036DE3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0ADC13B923AA8B330036DE3B /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		0ADC13BA23AA8B390036DE3B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0ADC13BB23AA8B490036DE3B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A4FEA5C23AA8A5400D78987 /* ViewController.swift in Sources */,
+				0ADC13BD23AA8B580036DE3B /* Secrets.swift in Sources */,
 				0A4FEA5823AA8A5400D78987 /* AppDelegate.swift in Sources */,
 				0A4FEA5A23AA8A5400D78987 /* SceneDelegate.swift in Sources */,
 			);
