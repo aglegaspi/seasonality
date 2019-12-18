@@ -2,6 +2,32 @@
 import UIKit
 //import Firebase
 
+extension CALayer{
+ func setCustomLayer(radius:CGFloat){
+         cornerRadius = radius
+         borderWidth = 2
+         borderColor = UIColor.black.cgColor
+         masksToBounds = true
+         shadowColor = UIColor.black.cgColor
+         shadowOffset = CGSize(width: 0, height: 5.0)
+         shadowRadius = 20.0
+         shadowOpacity = 0.5
+         masksToBounds = false
+    }
+}
+extension UIView {
+    func setGradientBackground(colorTop: UIColor, colorBottom: UIColor) {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [colorBottom.cgColor, colorTop.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0.5, y: 1.0)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 0.0)
+        gradientLayer.locations = [0, 1]
+        gradientLayer.frame = self.bounds
+
+        self.layer.insertSublayer(gradientLayer, at: 0)
+        
+    }
+}
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
