@@ -17,6 +17,7 @@ class WelcomeViewController: UIViewController {
         view.backgroundColor = .black
         // Do any additional setup after loading the view.
         setUpUI()
+        print("Welcome Screen should load")
     }
     
     override func viewWillAppear(_ animated: Bool) {
