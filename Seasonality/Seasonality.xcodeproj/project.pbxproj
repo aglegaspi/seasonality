@@ -19,6 +19,8 @@
 		0A52A1BA23ABD211005E050B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52A1B923ABD211005E050B /* SignUpViewController.swift */; };
 		0A52A1BC23ABD221005E050B /* SIgnUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52A1BB23ABD221005E050B /* SIgnUpView.swift */; };
 		0A52A1BE23ABD39D005E050B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52A1BD23ABD39D005E050B /* WelcomeView.swift */; };
+		0A52A1C023ABE72F005E050B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52A1BF23ABE72F005E050B /* DetailViewController.swift */; };
+		0A52A1C223ABE744005E050B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52A1C123ABE744005E050B /* DetailView.swift */; };
 		0ADC13BF23AA8D080036DE3B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13BE23AA8D080036DE3B /* Extensions.swift */; };
 		0ADC13C123AA8ECE0036DE3B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13C023AA8ECE0036DE3B /* Utilities.swift */; };
 		0ADC13C423AA9A950036DE3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ADC13C323AA9A950036DE3B /* GoogleService-Info.plist */; };
@@ -67,6 +69,8 @@
 		0A52A1B923ABD211005E050B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0A52A1BB23ABD221005E050B /* SIgnUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnUpView.swift; sourceTree = "<group>"; };
 		0A52A1BD23ABD39D005E050B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		0A52A1BF23ABE72F005E050B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0A52A1C123ABE744005E050B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0ADC13BE23AA8D080036DE3B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0ADC13C023AA8ECE0036DE3B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0ADC13C323AA9A950036DE3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -181,6 +185,7 @@
 				0AF6DE4E23ABCD0F00679841 /* WelcomeViewController.swift */,
 				0A52A1B523ABD177005E050B /* LoginViewController.swift */,
 				0A52A1B923ABD211005E050B /* SignUpViewController.swift */,
+				0A52A1BF23ABE72F005E050B /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 				0A52A1B723ABD191005E050B /* LoginView.swift */,
 				0A52A1BB23ABD221005E050B /* SIgnUpView.swift */,
 				0A52A1BD23ABD39D005E050B /* WelcomeView.swift */,
+				0A52A1C123ABE744005E050B /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -458,11 +464,13 @@
 				0ADC13BF23AA8D080036DE3B /* Extensions.swift in Sources */,
 				EC9F0AB123AAAD920088E46F /* NetworkManager.swift in Sources */,
 				EC9F0AB323AAADC40088E46F /* AppError.swift in Sources */,
+				0A52A1C023ABE72F005E050B /* DetailViewController.swift in Sources */,
 				0A4FEA5C23AA8A5400D78987 /* ViewController.swift in Sources */,
 				6903E4E423AACD3B0081005A /* AddressDecoder.swift in Sources */,
 				0A52A1BE23ABD39D005E050B /* WelcomeView.swift in Sources */,
 				0A52A1BA23ABD211005E050B /* SignUpViewController.swift in Sources */,
 				0A4FEA5823AA8A5400D78987 /* AppDelegate.swift in Sources */,
+				0A52A1C223ABE744005E050B /* DetailView.swift in Sources */,
 				0A4FEA5A23AA8A5400D78987 /* SceneDelegate.swift in Sources */,
 				0A52A1BC23ABD221005E050B /* SIgnUpView.swift in Sources */,
 				0A52A1B823ABD191005E050B /* LoginView.swift in Sources */,
