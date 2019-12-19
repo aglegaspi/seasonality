@@ -10,4 +10,19 @@ import Foundation
 
 struct Produce {
     
+    let item: String
+    let description: String
+    let image: String
+    
+    
+    init?(from dict: [String: Any], item: String) {
+           guard let description = dict["Description"] as? String,
+               let image = dict["imageUrl"] as? String else {
+                       return nil
+               }
+           self.item = item
+           self.description = description
+           self.image = image
+           
+       }
 }
