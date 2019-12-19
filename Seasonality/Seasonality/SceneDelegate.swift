@@ -21,13 +21,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.windowScene = windowScene
         
-        if Auth.auth().currentUser != nil {
+        if FirebaseAuthService.manager.currentUser != nil {
             window?.rootViewController = MainTBC()
         } else {
             let storyboard  = UIStoryboard(name: "Main", bundle: nil)
-            //guard let loginVC = storyboard.instantiateViewController(withIdentifier: "loginVC") as? LoginViewController else { return }
-            self.window?.rootViewController = MainTBC()
-            //self.window?.makeKeyAndVisible()
+            guard let welcomeVC = storyboard.instantiateViewController(withIdentifier: "welcomeVC") as? WelcomeViewController else { return }
+            self.window?.rootViewController = welcomeVC
+            self.window?.makeKeyAndVisible()
         }
         window?.makeKeyAndVisible()
         
