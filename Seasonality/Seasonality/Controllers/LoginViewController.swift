@@ -51,7 +51,22 @@ class LoginViewController: UIViewController {
                 self.loginView.errorLabel.alpha = 1
             }
             else {
-                self.dismiss(animated: true, completion: nil)
+//                let mainTBC = MainTBC()
+//                mainTBC.modalPresentationStyle = .fullScreen
+//                self.present(mainTBC,animated: true)
+                
+                guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+                    let sceneDelegate = windowScene.delegate as? SceneDelegate, let window = sceneDelegate.window
+                    else { return }
+                
+                UIView.transition(with: window, duration: 1.0, options: .transitionFlipFromBottom, animations: {
+                    window.rootViewController = {
+                        let mainTBC = MainTBC()
+                        self.navigationController?.pushViewController(mainTBC, animated: true)
+                       return mainTBC
+                    }()
+                }, completion: nil)
+            
             }
         }
     }

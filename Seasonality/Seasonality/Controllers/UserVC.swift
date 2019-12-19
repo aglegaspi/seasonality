@@ -5,6 +5,7 @@
 //  Created by Alex 6.1 on 12/19/19.
 //  Copyright © 2019 Jack Wong. All rights reserved.
 //
+import Foundation
 import UIKit
 import FirebaseAuth
 
@@ -121,9 +122,10 @@ class UserVC: UIViewController {
             
             UIView.transition(with: window, duration: 1.0, options: .transitionFlipFromBottom, animations: {
                 window.rootViewController = {
-//                    let loginVC = LoginVC()
-//                    self.navigationController?.pushViewController(loginVC, animated: true)
-                   return ViewController()
+                    
+                    let storyboard  = UIStoryboard(name: "Main", bundle: nil)
+                    guard let welcomeVC = storyboard.instantiateViewController(withIdentifier: "welcomeVC") as? WelcomeViewController else { return UIViewController() }
+                   return welcomeVC
                 }()
             }, completion: nil)
             
