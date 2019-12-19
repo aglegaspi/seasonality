@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseFirestore
 
 class SignUpViewController: UIViewController {
 
@@ -30,8 +31,68 @@ class SignUpViewController: UIViewController {
     }
     
     @objc func buttonTapped(){
+        // Validate the fields
+        let error = validateFields()
         
+        if error != nil {
+            print("Input error")
+            // There's something wrong with the fields, show error message
+//            showError(error!)
+        }
+        else {
+            
+            // Create cleaned versions of the data
+            let name = signUpView.nameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let email = signUpView.emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let password = signUpView.passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            
+            
+            // Create the user
+            Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
+                
+                // Check for errors
+                if err != nil {
+                    // There was an error creating the user
+                    if let err = err{
+                        self.showError(err.localizedDescription)
+                    }
+                }
+                else {
+                    
+                    // User was created successfully, now store the first name and last name
+                    let db = Firestore.firestore()
+                    
+                    let userUUID = result!.user.uid
+                    
+                    let userCollectionDocReference = db.collection("users").document(userUUID)
+       
+                    
+                    userCollectionDocReference.setData(["name": name, "uid": result!.user.uid]) { (error) in
+                        if error != nil {
+                            // Show error message
+                           print("error adding user data")
+                        }
+                    }
+                    self.showError("Success!")
+                    self.transitionToTabBar()
+                }
+            }
+        }
     }
+    
+    private func transitionToTabBar() {
+//         dismiss(animated: true, completion: nil)
+        
+        let farmersMarketMapVC = FarmersMarketMap()
+        
+     }
+     
+    
+     private func showError(_ message:String) {
+         
+        signUpView.errorLabel.text = message
+        signUpView.errorLabel.alpha = 1
+     }
     
     
     private func validateFields() -> String? {
