@@ -23,6 +23,7 @@ class NetworkHelper {
         request.httpMethod = httpMethod.rawValue
         request.httpBody = body
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.addValue("5evi78ixwtjow5hzhlcr6pels", forHTTPHeaderField: "PursuitAPIKey")
         
         urlSession.dataTask(with: request) { (data, response, error) in
             DispatchQueue.main.async {

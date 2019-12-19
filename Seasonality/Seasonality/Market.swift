@@ -14,7 +14,8 @@ struct Market: Codable {
     let phone: String?
     let marketLink: MarketLink?
     let operationHours, operationSeason, operationMonthsCode, fmnp: String?
-    let snapStatus, fc, fca, latitude: String?
+    let snapStatus, fc, fca: String?
+    let latitude: String?
     let longitude: String?
     let georeference: Georeference?
 
