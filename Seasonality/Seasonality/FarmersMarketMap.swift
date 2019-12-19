@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import CoreLocation
 import GoogleMaps
+import CoreLocation
 
 class FarmersMarketMap: UIViewController {
 
@@ -19,13 +19,13 @@ class FarmersMarketMap: UIViewController {
         }
     }
     var locationManager = CLLocationManager()
-    let cameraZoom:Float = 13
+    let cameraZoom:Float = 12
     let defaultLocation = CLLocationCoordinate2D(latitude: 40.752920, longitude: -73.957230)
    
     var searchedLocation:CLLocation = CLLocation(latitude: 0.0, longitude: 0.0) {
         didSet {
             loadFarmersMarketData(lat: self.searchedLocation.coordinate.latitude, long: self.searchedLocation.coordinate.longitude)
-            
+             farmerView.map.camera = GMSCameraPosition(latitude: self.searchedLocation.coordinate.latitude, longitude: self.searchedLocation.coordinate.longitude, zoom: cameraZoom)
             
     }
     }
@@ -55,13 +55,16 @@ private func locationAuthorization() {
           locationManager.startUpdatingLocation()
           locationManager.desiredAccuracy = kCLLocationAccuracyBest
         
-        guard let coordinates = locationManager.location?.coordinate else {
+//        guard let coordinates = locationManager.location?.coordinate else {
+//            self.showAlert(title: "Error", message: "Could Not Locate User")
+//            return
+//        }
+        guard let location = locationManager.location else {
             self.showAlert(title: "Error", message: "Could Not Locate User")
             return
         }
-        farmerView.map.camera = GMSCameraPosition(latitude: coordinates.latitude, longitude: coordinates.longitude, zoom: cameraZoom)
        
-        loadFarmersMarketData(lat: coordinates.latitude, long: coordinates.longitude)
+        searchedLocation = location
         
         
       case .denied:
@@ -81,6 +84,7 @@ private func locationAuthorization() {
     private func setDelegates() {
         locationManager.delegate = self
         farmerView.searchBarOne.delegate = self
+        farmerView.map.delegate = self
     }
     
     private func getAddress(address:String) {
@@ -94,15 +98,7 @@ private func locationAuthorization() {
             }
         }
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
     private func loadFarmersMarketData(lat:Double?,long:Double?) {
         
         guard let lat = lat, let long = long else {
@@ -130,13 +126,16 @@ private func locationAuthorization() {
             mark.title = venue.marketName
             mark.snippet = venue.operationHours
             mark.map = farmerView.map
-           
             
+        
+           
         
             
         }
         }
-    
+    @objc private func tapped() {
+        print("tapped")
+    }
 }
 extension FarmersMarketMap:UISearchBarDelegate {
     func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
@@ -200,4 +199,17 @@ extension FarmersMarketMap:CLLocationManagerDelegate {
        func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
            print(error)
        }
+}
+extension FarmersMarketMap:GMSMapViewDelegate {
+    func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
+marker.icon = GMSMarker.markerImage(with: UIColor.green)
+        
+        guard let index =  farmersMarket.firstIndex(where: {$0.marketName == marker.title}) else {
+            return
+        }
+        sleep(UInt32(0.50))
+      let detailVC = DetailFarmerViewController()
+        detailVC.market = farmersMarket[index]
+        navigationController?.pushViewController(detailVC, animated: true)
+    }
 }
