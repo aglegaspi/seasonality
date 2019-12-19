@@ -12,6 +12,7 @@ import FirebaseAuth
 class LoginViewController: UIViewController {
     
     let loginView = LoginView()
+    let demoMode = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +36,25 @@ class LoginViewController: UIViewController {
            
        }
     
-    @objc func buttonTapped(){}
+    @objc func buttonTapped(){
+        // Signing in the user
+        
+        // Create cleaned versions of the text field
+        let email = loginView.emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        let password = loginView.passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
+            
+            if error != nil {
+                // Couldn't sign in
+                self.loginView.errorLabel.text = error!.localizedDescription
+                self.loginView.errorLabel.alpha = 1
+            }
+            else {
+                self.dismiss(animated: true, completion: nil)
+            }
+        }
+    }
        
 }
 
