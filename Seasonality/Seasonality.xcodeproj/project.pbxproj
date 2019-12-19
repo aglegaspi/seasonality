@@ -22,16 +22,13 @@
 		0ADC13BF23AA8D080036DE3B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13BE23AA8D080036DE3B /* Extensions.swift */; };
 		0ADC13C123AA8ECE0036DE3B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC13C023AA8ECE0036DE3B /* Utilities.swift */; };
 		0ADC13C423AA9A950036DE3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ADC13C323AA9A950036DE3B /* GoogleService-Info.plist */; };
-
+		0AF6DE4F23ABCD0F00679841 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6DE4E23ABCD0F00679841 /* WelcomeViewController.swift */; };
 		4E07749123AB11BF0026BE60 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07749023AB11BF0026BE60 /* FirebaseAuth.swift */; };
 		4E07749323AB11E40026BE60 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07749223AB11E40026BE60 /* FirestoreService.swift */; };
 		4E07749723ABBF410026BE60 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07749623ABBF410026BE60 /* User.swift */; };
 		4E07749A23ABBFA40026BE60 /* Faved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07749923ABBFA40026BE60 /* Faved.swift */; };
 		4E07749C23ABD6D50026BE60 /* MarketFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07749B23ABD6D50026BE60 /* MarketFire.swift */; };
 		4E07749E23ABE31E0026BE60 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07749D23ABE31E0026BE60 /* Posts.swift */; };
-
-		0AF6DE4F23ABCD0F00679841 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6DE4E23ABCD0F00679841 /* WelcomeViewController.swift */; };
-
 		6903E4DE23AAAF520081005A /* FarmersMarketMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903E4DD23AAAF520081005A /* FarmersMarketMap.swift */; };
 		6903E4E023AAB0400081005A /* FarmersMarketMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903E4DF23AAB0400081005A /* FarmersMarketMapView.swift */; };
 		6903E4E423AACD3B0081005A /* AddressDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903E4E323AACD3B0081005A /* AddressDecoder.swift */; };
@@ -97,6 +94,7 @@
 		6903E4E323AACD3B0081005A /* AddressDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddressDecoder.swift; path = Seasonality/Views/AddressDecoder.swift; sourceTree = SOURCE_ROOT; };
 		8900433DBA99CE319ABA7635 /* Pods_SeasonalityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeasonalityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A0B2CA1BAB765DF90CB58F /* Pods-Seasonality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seasonality.release.xcconfig"; path = "Target Support Files/Pods-Seasonality/Pods-Seasonality.release.xcconfig"; sourceTree = "<group>"; };
+		EC034A0C23ABEB8E00B93939 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
 		EC9F0AB023AAAD920088E46F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Seasonality/NetworkManager.swift; sourceTree = SOURCE_ROOT; };
 		EC9F0AB223AAADC40088E46F /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppError.swift; path = Seasonality/AppError.swift; sourceTree = SOURCE_ROOT; };
 		EC9F0AB423AAAEA30088E46F /* MarketAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MarketAPIClient.swift; path = Seasonality/MarketAPIClient.swift; sourceTree = SOURCE_ROOT; };
@@ -253,6 +251,7 @@
 		0ADC13C223AA90C20036DE3B /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				EC034A0C23ABEB8E00B93939 /* background.mp4 */,
 				0AF6DE4C23ABCCE000679841 /* background.mp4 */,
 			);
 			path = Media;
@@ -375,7 +374,6 @@
 				0A4FEA6423AA8A5600D78987 /* LaunchScreen.storyboard in Resources */,
 				0ADC13C423AA9A950036DE3B /* GoogleService-Info.plist in Resources */,
 				0A4FEA6123AA8A5600D78987 /* Assets.xcassets in Resources */,
-				0AF6DE4D23ABCCE000679841 /* background.mp4 in Resources */,
 				EC9F0AB923AAB8F80088E46F /* marketdata.json in Resources */,
 				0A4FEA5F23AA8A5400D78987 /* Main.storyboard in Resources */,
 			);
@@ -484,15 +482,11 @@
 				6903E4DE23AAAF520081005A /* FarmersMarketMap.swift in Sources */,
 				0AF6DE4F23ABCD0F00679841 /* WelcomeViewController.swift in Sources */,
 				6903E4E023AAB0400081005A /* FarmersMarketMapView.swift in Sources */,
-
-				6905D74823AAAE6B00876A5D /* Secrets.swift in Sources */,
 				4E07749323AB11E40026BE60 /* FirestoreService.swift in Sources */,
 				4E07749C23ABD6D50026BE60 /* MarketFire.swift in Sources */,
 				0ADC13BF23AA8D080036DE3B /* Extensions.swift in Sources */,
 				4E07749123AB11BF0026BE60 /* FirebaseAuth.swift in Sources */,
-
 				ECA7E6C623ABCFC00092A7EE /* MainTBC.swift in Sources */,
-
 				EC9F0AB123AAAD920088E46F /* NetworkManager.swift in Sources */,
 				EC9F0AB323AAADC40088E46F /* AppError.swift in Sources */,
 				4E07749A23ABBFA40026BE60 /* Faved.swift in Sources */,
@@ -501,11 +495,8 @@
 				0A52A1BE23ABD39D005E050B /* WelcomeView.swift in Sources */,
 				0A52A1BA23ABD211005E050B /* SignUpViewController.swift in Sources */,
 				0A4FEA5823AA8A5400D78987 /* AppDelegate.swift in Sources */,
-
 				4E07749E23ABE31E0026BE60 /* Posts.swift in Sources */,
-
 				ECA7E6C423ABBF000092A7EE /* ShowAlert.swift in Sources */,
-
 				0A4FEA5A23AA8A5400D78987 /* SceneDelegate.swift in Sources */,
 				0A52A1BC23ABD221005E050B /* SIgnUpView.swift in Sources */,
 				0A52A1B823ABD191005E050B /* LoginView.swift in Sources */,
