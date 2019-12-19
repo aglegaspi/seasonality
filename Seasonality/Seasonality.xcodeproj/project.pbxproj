@@ -100,7 +100,7 @@
 		4E07749F23ABF9C20026BE60 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageHelper.swift; path = Seasonality/ImageHelper.swift; sourceTree = SOURCE_ROOT; };
 		4E3AA2D15EFB4E87D6CD56CA /* Pods_Seasonality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seasonality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE22AE823AC064700DC4932 /* DetailFarmerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFarmerViewController.swift; sourceTree = "<group>"; };
-		4EE22AEA23AC067000DC4932 /* DetailFarmerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailFarmerView.swift; path = Seasonality/Views/DetailFarmerView.swift; sourceTree = SOURCE_ROOT; };
+		4EE22AEA23AC067000DC4932 /* DetailFarmerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailFarmerView.swift; path = Seasonality/Models/DetailFarmerView.swift; sourceTree = SOURCE_ROOT; };
 		4EE22AEC23AC069100DC4932 /* ProduceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProduceCollectionViewCell.swift; path = Seasonality/Views/ProduceCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 		4EE22AEE23AC06DA00DC4932 /* CommentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentCollectionViewCell.swift; path = Seasonality/Views/CommentCollectionViewCell.swift; sourceTree = "<group>"; };
 		4EE22AF023AC074D00DC4932 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = background.mp4; path = Seasonality/Media/background.mp4; sourceTree = "<group>"; };
@@ -206,6 +206,7 @@
 				4E07749D23ABE31E0026BE60 /* Posts.swift */,
 				4E07749923ABBFA40026BE60 /* Faved.swift */,
 				4E07749623ABBF410026BE60 /* User.swift */,
+				4EE22AEA23AC067000DC4932 /* DetailFarmerView.swift */,
 				6903E4E323AACD3B0081005A /* AddressDecoder.swift */,
 			);
 			path = Models;
@@ -216,7 +217,6 @@
 			children = (
 				6903E4DD23AAAF520081005A /* FarmersMarketMap.swift */,
 				4EE22AEC23AC069100DC4932 /* ProduceCollectionViewCell.swift */,
-				4EE22AEA23AC067000DC4932 /* DetailFarmerView.swift */,
 				4EE22AE823AC064700DC4932 /* DetailFarmerViewController.swift */,
 				EC9F0AC723ABBC970088E46F /* UserVC.swift */,
 				ECA7E6C523ABCFC00092A7EE /* MainTBC.swift */,

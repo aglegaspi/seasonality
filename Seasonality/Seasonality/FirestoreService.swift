@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Firebase
 import FirebaseFirestore
 
 fileprivate enum FireStoreCollections: String {
@@ -46,6 +47,21 @@ class FirestoreService {
             completion(.success(()))
         }
     }
+    
+    func getUserInfo(userID: String, completion: @escaping (Result<AppUser,Error>) -> ()) {
+        
+//        db.collection(FireStoreCollections.users.rawValue).document(userID).getDocument { (snapshot,error) in
+//           if let error = error {
+//                completion(.failure(error))
+//                print(error)
+//           } else {
+//            guard let userdata = snapshot?.data() else { return }
+//            let user = AppUser(from: userdata, id: userID)
+//            completion(.success(user))
+//            }
+//        }
+    }
+    
     
     func updateCurrentUser(userName: String? = nil, photoURL: URL? = nil, completion: @escaping (Result<(), Error>) -> ()){
         guard let userId = FirebaseAuthService.manager.currentUser?.uid else {

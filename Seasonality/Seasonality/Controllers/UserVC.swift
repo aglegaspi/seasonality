@@ -14,15 +14,13 @@ class UserVC: UIViewController {
     //MARK: PROPERTIES
     var user: User!
     var isCurrentUser = false
-    var imageURL: String? = nil
-    
     
     //MARK: VIEWS
     lazy var userName: UILabel = {
         let label = UILabel()
         label.textAlignment = .left
         label.textColor = .white
-        label.text = "Username"
+        label.text = "Username: Demo"
         label.font = UIFont.systemFont(ofSize: 20, weight: .black)
         return label
     }()
@@ -54,8 +52,14 @@ class UserVC: UIViewController {
     
     //MARK: PRIVATE FUNCTIONS
     private func setUserName() {
-        if let displayName = FirebaseAuthService.manager.currentUser?.displayName {
-            userName.text = displayName
+        guard let userID = FirebaseAuthService.manager.currentUser?.uid else { return }
+        FirestoreService.manager.getUserInfo(userID: userID) { (result) in
+            switch result {
+            case .success(let userInfo):
+                self.userName.text = userInfo.userName
+            case .failure(let error):
+                print(error)
+            }
         }
     }
 
@@ -113,10 +117,6 @@ class UserVC: UIViewController {
         }
     }
     
-    @objc private func editAction(){
-//        let editVC = EditProfileVC()
-//        editVC.modalPresentationStyle = .fullScreen
-//        present(editVC, animated: true, completion: nil)
-    }
+
     
 }
