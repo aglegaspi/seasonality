@@ -16,6 +16,11 @@ class DetailFarmerViewController: UIViewController {
     
     var market:Market!
    
+    var produce = [Produce]() {
+        didSet {
+            detailFarmerView.produceCollectionView.reloadData()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +50,7 @@ Available : \(market.operationSeason ?? "Seasons Open Unavailable")
 
          detailFarmerView.marketURL.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
     }
-    @objc  func buttonTapped() {
+    @objc private func buttonTapped() {
         self.showAlert(title: "This Action Will Take You to an Unaffliated Third-Party Website", message: "Are You Sure?") { [weak self](result) in
             self?.handleLeavingSite(with: result)
     }
@@ -69,6 +74,16 @@ Available : \(market.operationSeason ?? "Seasons Open Unavailable")
             print("-")
              }
     }
+    private func getAllProduce() {
+        FirestoreService.manager.getAllProduce { [weak self](result) in
+            switch result {
+            case .success(let produceData):
+                self?.produce = produceData
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
 }
 
 extension DetailFarmerViewController:UICollectionViewDataSource,UICollectionViewDelegate {
@@ -77,10 +92,19 @@ extension DetailFarmerViewController:UICollectionViewDataSource,UICollectionView
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let produceInCell = produce[indexPath.item]
         guard let cell = detailFarmerView.produceCollectionView.dequeueReusableCell(withReuseIdentifier: RegisterCells.produceCollectionCell.rawValue, for: indexPath) as? ProduceCollectionViewCell else {
             return UICollectionViewCell()
         }
-        cell.photoImage.image = UIImage(systemName: "photo")
+        cell.photoImage.getImage(with: produceInCell.image) { (result) in
+            switch result {
+            case .success(let image):
+                cell.photoImage.image = image
+            case .failure(let error):
+                print(error)
+            
+            }
+        }
 
         return cell
         
