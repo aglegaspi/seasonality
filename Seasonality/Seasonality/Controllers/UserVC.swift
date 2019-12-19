@@ -12,30 +12,19 @@ import FirebaseAuth
 class UserVC: UIViewController {
     
     //MARK: PROPERTIES
-    //var user: AppUser!
+    var user: User!
     var isCurrentUser = false
     var imageURL: String? = nil
     
     
     //MARK: VIEWS
-    
     lazy var userName: UILabel = {
         let label = UILabel()
         label.textAlignment = .left
         label.textColor = .white
         label.text = "Username"
-        label.font = UIFont.systemFont(ofSize: 20, weight: .regular)
+        label.font = UIFont.systemFont(ofSize: 20, weight: .black)
         return label
-    }()
-    
-    
-    lazy var editButton: UIButton = {
-        let button = UIButton()
-        button.setTitle("Edit Profile", for: .normal)
-        button.tintColor = .orange
-        button.backgroundColor = .init(white: 0.4, alpha: 0.8)
-        button.addTarget(self, action: #selector(editAction), for: .touchUpInside)
-        return button
     }()
     
     lazy var logOutButton: UIButton = {
@@ -43,6 +32,9 @@ class UserVC: UIViewController {
         button.setTitle("Log Out", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.setTitleColor(.white, for: .selected)
+        button.contentEdgeInsets = .init(top: 5, left: 5, bottom: 5, right: 5)
+        button.backgroundColor = .blue
+        button.layer.cornerRadius = 5
         button.addTarget(self, action: #selector(logOutButtonPressed), for: .touchDown)
         return button
     }()
@@ -62,16 +54,15 @@ class UserVC: UIViewController {
     
     //MARK: PRIVATE FUNCTIONS
     private func setUserName() {
-//        if let displayName = FirebaseAuthService.manager.currentUser?.displayName {
-//            userName.text = displayName
-//        }
+        if let displayName = FirebaseAuthService.manager.currentUser?.displayName {
+            userName.text = displayName
+        }
     }
 
     
     //MARK: CONSTRAINTS
     private func setConstraints() {
         constrainUserName()
-        constrainEditButton()
         setUserName()
         constrainLogOutButton()
     }
@@ -81,31 +72,19 @@ class UserVC: UIViewController {
         view.addSubview(userName)
         userName.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            userName.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 30),
+            userName.centerYAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerYAnchor),
             userName.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
             userName.widthAnchor.constraint(lessThanOrEqualTo: view.widthAnchor, constant: 1.5),
             userName.heightAnchor.constraint(equalToConstant: 70)])
-    }
-    
-    private func constrainEditButton() {
-        view.addSubview(editButton)
-        editButton.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            editButton.heightAnchor.constraint(equalToConstant: 30),
-            editButton.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
-            editButton.topAnchor.constraint(equalTo: userName.bottomAnchor, constant: 10),
-            editButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -10)
-        ])
     }
     
     private func constrainLogOutButton() {
         view.addSubview(logOutButton)
         logOutButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            logOutButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
-            logOutButton.heightAnchor.constraint(equalToConstant: 30),
-            logOutButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 5)
-            
+            logOutButton.topAnchor.constraint(equalTo: userName.bottomAnchor, constant: 10),
+            logOutButton.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
+            logOutButton.heightAnchor.constraint(equalToConstant: 30)
         ])
     }
     

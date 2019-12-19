@@ -208,8 +208,8 @@ marker.icon = GMSMarker.markerImage(with: UIColor.green)
             return
         }
         sleep(UInt32(0.50))
-      let detailVC = DetailFarmerViewController()
-        detailVC.market = farmersMarket[index]
-        navigationController?.pushViewController(detailVC, animated: true)
+//      let detailVC = DetailFarmerViewController()
+//        detailVC.market = farmersMarket[index]
+//        navigationController?.pushViewController(detailVC, animated: true)
     }
 }
