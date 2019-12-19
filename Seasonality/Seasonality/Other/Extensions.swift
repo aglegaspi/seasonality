@@ -108,7 +108,7 @@ extension String {
     }
     return formatDate
   }
-  
+
   // e.g usage createdAt.date()
   public func date() -> Date {
     var date = Date()
@@ -118,4 +118,12 @@ extension String {
     }
     return date
   }
+    
+   
+        var isvalidAddress:Bool {
+              let validAddress = "[A-Z0-9a-z ]+,[A-Za-z0-9]+,[A-Za-z]{2,2}"
+              let predicate = NSPredicate(format:"SELF MATCHES %@", validAddress)
+              return predicate.evaluate(with: self)
+          
+    }
 }
