@@ -25,12 +25,15 @@ class ProduceCell: UITableViewCell {
    //MARK: VIEWS
        lazy var produceImage: UIImageView = {
            let imageView = UIImageView()
-           imageView.contentMode = .scaleToFill
+        imageView.contentMode = .center
            return imageView
        }()
        
        lazy var produceName: UILabel = {
            let label = UILabel()
+        label.backgroundColor = .white
+        label.textColor = .black
+        label.textAlignment = .center
            label.font = UIFont.systemFont(ofSize: 20, weight: .regular)
            label.adjustsFontSizeToFitWidth = true
            return label
@@ -67,27 +70,26 @@ class ProduceCell: UITableViewCell {
        private func constraintsForViews() {
            constrainEventImage()
            constrainEventName()
-           constrainEventTime()
-           constrainFavoriteImage()
+          // constrainEventTime()
+           //constrainFavoriteImage()
        }
        
        private func constrainEventImage() {
            addSubview(produceImage)
            produceImage.translatesAutoresizingMaskIntoConstraints =  false
            NSLayoutConstraint.activate(
-               [produceImage.heightAnchor.constraint(equalTo: self.heightAnchor),
-                produceImage.widthAnchor.constraint(equalToConstant: 100),
+            [produceImage.heightAnchor.constraint(equalTo: contentView.heightAnchor),
+             produceImage.widthAnchor.constraint(equalTo: contentView.widthAnchor),
                 produceImage.leadingAnchor.constraint(equalTo: self.leadingAnchor)])
        }
        
        private func constrainEventName() {
-           let padding: CGFloat = 16
+//           let padding: CGFloat = 16
            addSubview(produceName)
            produceName.translatesAutoresizingMaskIntoConstraints = false
            NSLayoutConstraint.activate(
-            [produceName.leadingAnchor.constraint(equalTo: produceImage.trailingAnchor, constant: padding),
-            produceName.topAnchor.constraint(equalTo: self.topAnchor, constant: padding),
-            produceName.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16)])
+            [produceName.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+             produceName.centerXAnchor.constraint(equalTo: contentView.centerXAnchor)])
        }
        
        private func constrainEventTime() {
