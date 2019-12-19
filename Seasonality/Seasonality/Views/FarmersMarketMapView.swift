@@ -14,7 +14,7 @@ class FarmersMarketMapView: UIView {
    lazy var searchBarOne:UISearchBar = {
         let sbo = UISearchBar()
         sbo.tag = 0
-        sbo.placeholder = "Search For Farmers Markets"
+        sbo.placeholder = "1 Infinite Loop, Cupertino, CA"
         sbo.searchBarStyle = .minimal
         sbo.setImage(UIImage(systemName: "magnifyingglass.circle"), for: .search, state: .normal)
         sbo.searchTextField.textColor = .red
