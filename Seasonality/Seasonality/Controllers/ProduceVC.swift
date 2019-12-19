@@ -97,7 +97,7 @@ extension ProduceVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 150
+        return 450
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -124,6 +124,9 @@ extension ProduceVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let food = produce[indexPath.row]
+        print(food)
 //        let dvc = TMDetailVC()
 //        dvc.modalPresentationStyle = .currentContext
 //        let eventDetails = events[indexPath.row]
