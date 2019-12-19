@@ -103,9 +103,21 @@ extension ProduceVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let produceType = produce[indexPath.row]
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ProduceCell") as? ProduceCell else {
-            return UITableViewCell()
-        }
+            return UITableViewCell()}
         
+        cell.produceName.text = produceType.name
+        
+        ImageHelper.shared.getImage(urlStr: produceType.image) { (result) in
+            DispatchQueue.main.async {
+                switch result {
+                case .failure(let error):
+                    cell.produceImage.image = UIImage(named: "defaultimage")
+                case .success(let produceImage):
+                    cell.produceImage.image = produceImage
+                }
+            }
+            
+        }
         
         
         return cell
