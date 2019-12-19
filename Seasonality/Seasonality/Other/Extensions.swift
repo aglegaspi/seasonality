@@ -15,6 +15,44 @@ extension CALayer{
          masksToBounds = false
     }
 }
+
+extension UIImageView {
+    
+    func getImage(with urlString: String, completion: @escaping (Result<UIImage, AppError>) -> ()) {
+        let activityIndicator = UIActivityIndicatorView(style: .large)
+        activityIndicator.color = .orange
+        activityIndicator.startAnimating()
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.center = center
+        addSubview(activityIndicator)
+        
+        guard let url = URL(string: urlString) else {
+            completion(.failure(.badURL))
+            return
+        }
+        
+        let request = URLRequest(url: url)
+        
+        NetworkHelper.manager.performDataTask(withUrl: url, andMethod: .get) { [weak self] (result) in
+            DispatchQueue.main.async {
+                
+            
+            switch result {
+            case .failure(let appError):
+               activityIndicator.stopAnimating()
+               completion(.failure(.notAnImage))
+            case .success(let data):
+                activityIndicator.stopAnimating()
+                
+                if let image = UIImage(data: data) {
+                    completion(.success(image))
+                }
+            }
+        }
+    }
+}
+}
+
 extension UIView {
     func setGradientBackground(colorTop: UIColor, colorBottom: UIColor) {
         let gradientLayer = CAGradientLayer()
@@ -27,6 +65,27 @@ extension UIView {
         self.layer.insertSublayer(gradientLayer, at: 0)
         
     }
+}
+
+extension UILabel {
+    public convenience init(font:UIFont){
+        self.init()
+        self.textAlignment = .center
+        self.textColor = .black
+        self.adjustsFontSizeToFitWidth = true
+        self.numberOfLines = 0
+        self.font = font
+    }
+}
+extension UICollectionViewFlowLayout {
+    public convenience init(placeHolder:String) {
+    self.init()
+        self.scrollDirection = .horizontal
+    self.itemSize = CGSize(width: 150, height:150)
+        self.minimumInteritemSpacing = 20
+        self.minimumLineSpacing = 20
+        self.sectionInset = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+}
 }
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
@@ -46,10 +105,20 @@ extension UIViewController {
            present(alertController, animated: true, completion: nil)
        }
        
-       func showAlert(title: String, message: String, handler: @escaping (UIAlertController) -> Void) {
+       func showAlert(title: String, message: String, handler: @escaping (Result<(),AppError>) -> Void) {
            let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-           handler(alertController)
-       }
+           
+       
+        let yes = UIAlertAction(title: "I'm Sure", style: .destructive) { (action) in
+            handler(.success(()))
+        }
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel) { (action) in
+            handler(.failure(.badURL))
+        }
+        alertController.addAction(yes)
+        alertController.addAction(cancel)
+}
+}
     
 //    fileprivate func checkLoggedInUserStatus() {
 //        if Auth.auth().currentUser == nil {
@@ -83,7 +152,7 @@ extension UIViewController {
 //        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
 //        Utilities.showAlert(on: self, style: .actionSheet, title: nil, message: nil, actions: [signOutAction, cancelAction], completion: nil)
 //    }
-}
+
 
 extension Date {
   // get an ISO timestamp
@@ -93,6 +162,8 @@ extension Date {
     return timestamp
   }
 }
+
+
 
 extension String {
   // create a formatted date from ISO
