@@ -51,7 +51,6 @@ class ProduceVC: UIViewController {
 
     
     //MARK: CONSTRAINTS
-    
     private func constrainTableView() {
         view.addSubview(tableview)
         tableview.translatesAutoresizingMaskIntoConstraints = false

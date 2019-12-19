@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import GoogleMaps
 import CoreLocation
+import GoogleMaps
 
 class FarmersMarketMap: UIViewController {
 
