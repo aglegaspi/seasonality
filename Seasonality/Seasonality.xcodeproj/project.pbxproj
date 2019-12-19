@@ -83,7 +83,6 @@
 		0ADC13BE23AA8D080036DE3B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0ADC13C023AA8ECE0036DE3B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0ADC13C323AA9A950036DE3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		0AF6DE4C23ABCCE000679841 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = background.mp4; path = ../../../../background.mp4; sourceTree = "<group>"; };
 		0AF6DE4E23ABCD0F00679841 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		398139325EA3332B65FB18A0 /* Pods-SeasonalityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeasonalityTests.release.xcconfig"; path = "Target Support Files/Pods-SeasonalityTests/Pods-SeasonalityTests.release.xcconfig"; sourceTree = "<group>"; };
 		3CA528615A6F806B976B1BC2 /* Pods-Seasonality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seasonality.debug.xcconfig"; path = "Target Support Files/Pods-Seasonality/Pods-Seasonality.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,7 +99,6 @@
 		6903E4E323AACD3B0081005A /* AddressDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddressDecoder.swift; path = Seasonality/Views/AddressDecoder.swift; sourceTree = SOURCE_ROOT; };
 		8900433DBA99CE319ABA7635 /* Pods_SeasonalityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeasonalityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A0B2CA1BAB765DF90CB58F /* Pods-Seasonality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seasonality.release.xcconfig"; path = "Target Support Files/Pods-Seasonality/Pods-Seasonality.release.xcconfig"; sourceTree = "<group>"; };
-		EC034A0C23ABEB8E00B93939 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
 		EC9F0AB023AAAD920088E46F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Seasonality/NetworkManager.swift; sourceTree = SOURCE_ROOT; };
 		EC9F0AB223AAADC40088E46F /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppError.swift; path = Seasonality/AppError.swift; sourceTree = SOURCE_ROOT; };
 		EC9F0AB423AAAEA30088E46F /* MarketAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MarketAPIClient.swift; path = Seasonality/MarketAPIClient.swift; sourceTree = SOURCE_ROOT; };
@@ -260,8 +258,6 @@
 		0ADC13C223AA90C20036DE3B /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				EC034A0C23ABEB8E00B93939 /* background.mp4 */,
-				0AF6DE4C23ABCCE000679841 /* background.mp4 */,
 			);
 			path = Media;
 			sourceTree = "<group>";

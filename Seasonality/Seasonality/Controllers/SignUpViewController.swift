@@ -69,24 +69,19 @@ class SignUpViewController: UIViewController {
                     
                     userCollectionDocReference.setData(["name": name, "uid": result!.user.uid]) { (error) in
                         if error != nil {
-                            // Show error message
                            print("error adding user data")
                         }
                     }
                     self.showError("Success!")
-                    self.transitionToTabBar()
+                    let mainTBC = MainTBC()
+                    mainTBC.modalPresentationStyle = .fullScreen
+                    self.present(mainTBC,animated: true)
                 }
             }
         }
     }
     
-    private func transitionToTabBar() {
-//         dismiss(animated: true, completion: nil)
-        
-        let farmersMarketMapVC = FarmersMarketMap()
-        
-     }
-     
+
     
      private func showError(_ message:String) {
          
