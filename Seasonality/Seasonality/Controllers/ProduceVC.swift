@@ -39,13 +39,15 @@ class ProduceVC: UIViewController {
     //MARK: PRIVATE FUNCTIONS
     
     private func loadProduce() {
-//        guard let user = FirebaseAuthService.manager.currentUser else { return }
-//        FirestoreService.manager.getFavorites(currentUser: user.uid) { (result) in
-//            switch result {
-//            case .failure(let error): print(error)
-//            case .success(let success): self.favorites = success
-//            }
-//        }
+
+        FirestoreService.manager.getAllProduce { (result) in
+            switch result {
+            case .failure(let error):
+                print("error getting produce" )
+            case .success(let data):
+                self.produce = data
+            }
+        }
     }
     
 
@@ -99,31 +101,12 @@ extension ProduceVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let event = events[indexPath.row]
-//        let imageURL = event.images?[4].url ?? "https://redoak-properties.com/images/NoPhotoAvailable.jpg"
-//
+        let produceType = produce[indexPath.row]
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ProduceCell") as? ProduceCell else {
             return UITableViewCell()
         }
-//        cell.favoriteButton.tag = indexPath.row
-//        cell.delegate = self
-//        cell.eventName.text = event.name
-//        cell.eventTime.text = event.dates?.start?.localDate
-//
-//        ImageHelper.shared.getImage(urlStr: imageURL) { (result) in
-//            DispatchQueue.main.async {
-//                switch result {
-//                case .failure(let error): print(error)
-//                case .success(let image): cell.eventImage.image = image
-//                }
-//            }
-//        }
-//
-//        if self.favorites.contains(where: { $0.eventID == events[indexPath.row].id }) {
-//            cell.isFavorited = true
-//        } else {
-//            cell.isFavorited = false
-//        }
+        
+        
         
         return cell
     }

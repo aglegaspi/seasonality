@@ -23,26 +23,28 @@ class ProduceCell: UITableViewCell {
        }
        
    //MARK: VIEWS
-       lazy var eventImage: UIImageView = {
+       lazy var produceImage: UIImageView = {
            let imageView = UIImageView()
            imageView.contentMode = .scaleToFill
            return imageView
        }()
        
-       lazy var eventName: UILabel = {
+       lazy var produceName: UILabel = {
            let label = UILabel()
            label.font = UIFont.systemFont(ofSize: 20, weight: .regular)
            label.adjustsFontSizeToFitWidth = true
            return label
        }()
        
-       lazy var eventTime: UILabel = {
-           let label = UILabel()
-           label.textColor = .lightGray
-           label.font = UIFont.systemFont(ofSize: 14, weight: .light)
-           label.adjustsFontSizeToFitWidth = true
+       lazy var produceDescription: UITextField = {
+           let label = UITextField()
+            label.textColor = .black
+            label.textAlignment = .center
+            label.font = UIFont.systemFont(ofSize: 14, weight: .light)
+            label.adjustsFontSizeToFitWidth = true
            return label
        }()
+    
        
        lazy var favoriteButton: UIButton = {
            var button = UIButton()
@@ -70,32 +72,32 @@ class ProduceCell: UITableViewCell {
        }
        
        private func constrainEventImage() {
-           addSubview(eventImage)
-           eventImage.translatesAutoresizingMaskIntoConstraints =  false
+           addSubview(produceImage)
+           produceImage.translatesAutoresizingMaskIntoConstraints =  false
            NSLayoutConstraint.activate(
-               [eventImage.heightAnchor.constraint(equalTo: self.heightAnchor),
-                eventImage.widthAnchor.constraint(equalToConstant: 100),
-                eventImage.leadingAnchor.constraint(equalTo: self.leadingAnchor)])
+               [produceImage.heightAnchor.constraint(equalTo: self.heightAnchor),
+                produceImage.widthAnchor.constraint(equalToConstant: 100),
+                produceImage.leadingAnchor.constraint(equalTo: self.leadingAnchor)])
        }
        
        private func constrainEventName() {
            let padding: CGFloat = 16
-           addSubview(eventName)
-           eventName.translatesAutoresizingMaskIntoConstraints = false
+           addSubview(produceName)
+           produceName.translatesAutoresizingMaskIntoConstraints = false
            NSLayoutConstraint.activate(
-               [eventName.leadingAnchor.constraint(equalTo: eventImage.trailingAnchor, constant: padding),
-                eventName.topAnchor.constraint(equalTo: self.topAnchor, constant: padding),
-                eventName.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16)])
+            [produceName.leadingAnchor.constraint(equalTo: produceImage.trailingAnchor, constant: padding),
+            produceName.topAnchor.constraint(equalTo: self.topAnchor, constant: padding),
+            produceName.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16)])
        }
        
        private func constrainEventTime() {
            let padding: CGFloat = 16
-           addSubview(eventTime)
-           eventTime.translatesAutoresizingMaskIntoConstraints = false
+           addSubview(produceDescription)
+           produceDescription.translatesAutoresizingMaskIntoConstraints = false
            NSLayoutConstraint.activate(
-               [eventTime.leadingAnchor.constraint(equalTo: eventName.leadingAnchor),
-                eventTime.topAnchor.constraint(equalTo: eventName.bottomAnchor),
-                eventTime.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -padding)])
+            [produceDescription.leadingAnchor.constraint(equalTo: produceName.leadingAnchor),
+            produceDescription.topAnchor.constraint(equalTo: produceName.bottomAnchor),
+            produceDescription.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -padding)])
        }
        
        private func constrainFavoriteImage() {
@@ -103,7 +105,7 @@ class ProduceCell: UITableViewCell {
            addSubview(favoriteButton)
            favoriteButton.translatesAutoresizingMaskIntoConstraints = false
            NSLayoutConstraint.activate(
-               [favoriteButton.leadingAnchor.constraint(equalTo: eventImage.trailingAnchor, constant: 275),
+               [favoriteButton.leadingAnchor.constraint(equalTo: produceImage.trailingAnchor, constant: 275),
                 favoriteButton.topAnchor.constraint(equalTo: self.topAnchor, constant: 50),
                 favoriteButton.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -padding),
                 favoriteButton.heightAnchor.constraint(equalToConstant: 25)

@@ -9,7 +9,7 @@
 import Foundation
 
 struct Produce {
-    
+    let name: String
     let item: String
     let description: String
     let image: String
@@ -17,12 +17,15 @@ struct Produce {
     
     init?(from dict: [String: Any], item: String) {
            guard let description = dict["Description"] as? String,
-               let image = dict["imageUrl"] as? String else {
+                let image = dict["imageUrl"] as? String,
+                let name = dict["name"] as? String else {
                        return nil
                }
-           self.item = item
-           self.description = description
-           self.image = image
+        self.item = item
+        self.description = description
+        self.image = image
+        self.name = name
+        
            
        }
 }
