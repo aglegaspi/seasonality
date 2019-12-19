@@ -39,6 +39,7 @@ class WelcomeViewController: UIViewController {
         let bundlePath = Bundle.main.path(forResource: "background", ofType: "mp4")
         
         guard bundlePath != nil else {
+            print("it is nil")
             return
         }
         
