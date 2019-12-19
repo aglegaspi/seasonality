@@ -20,6 +20,10 @@
 		6903E4DE23AAAF520081005A /* FarmersMarketMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903E4DD23AAAF520081005A /* FarmersMarketMap.swift */; };
 		6903E4E023AAB0400081005A /* FarmersMarketMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903E4DF23AAB0400081005A /* FarmersMarketMapView.swift */; };
 		6903E4E423AACD3B0081005A /* AddressDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903E4E323AACD3B0081005A /* AddressDecoder.swift */; };
+		6903E4E823ABC4190081005A /* DetailFarmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903E4E723ABC4190081005A /* DetailFarmerView.swift */; };
+		6903E4EA23ABC83D0081005A /* CommentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903E4E923ABC83D0081005A /* CommentCollectionViewCell.swift */; };
+		6903E4EC23ABCB840081005A /* DetailFarmerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903E4EB23ABCB840081005A /* DetailFarmerViewController.swift */; };
+		6903E4EE23ABCF570081005A /* ProduceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903E4ED23ABCF570081005A /* ProduceCollectionViewCell.swift */; };
 		6905D74823AAAE6B00876A5D /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6905D74723AAAE6B00876A5D /* Secrets.swift */; };
 		8C8D0DF26EDD6F86EDBCE9B0 /* Pods_SeasonalityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8900433DBA99CE319ABA7635 /* Pods_SeasonalityTests.framework */; };
 		90ED34CFF2D42D3E71C8DEAF /* Pods_Seasonality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3AA2D15EFB4E87D6CD56CA /* Pods_Seasonality.framework */; };
@@ -62,6 +66,10 @@
 		6903E4DD23AAAF520081005A /* FarmersMarketMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FarmersMarketMap.swift; path = Seasonality/FarmersMarketMap.swift; sourceTree = SOURCE_ROOT; };
 		6903E4DF23AAB0400081005A /* FarmersMarketMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersMarketMapView.swift; sourceTree = "<group>"; };
 		6903E4E323AACD3B0081005A /* AddressDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddressDecoder.swift; path = Seasonality/Views/AddressDecoder.swift; sourceTree = SOURCE_ROOT; };
+		6903E4E723ABC4190081005A /* DetailFarmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFarmerView.swift; sourceTree = "<group>"; };
+		6903E4E923ABC83D0081005A /* CommentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCollectionViewCell.swift; sourceTree = "<group>"; };
+		6903E4EB23ABCB840081005A /* DetailFarmerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailFarmerViewController.swift; path = Seasonality/Views/DetailFarmerViewController.swift; sourceTree = SOURCE_ROOT; };
+		6903E4ED23ABCF570081005A /* ProduceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProduceCollectionViewCell.swift; sourceTree = "<group>"; };
 		6905D74723AAAE6B00876A5D /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		8900433DBA99CE319ABA7635 /* Pods_SeasonalityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeasonalityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A0B2CA1BAB765DF90CB58F /* Pods-Seasonality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seasonality.release.xcconfig"; path = "Target Support Files/Pods-Seasonality/Pods-Seasonality.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				6903E4DD23AAAF520081005A /* FarmersMarketMap.swift */,
+				6903E4EB23ABCB840081005A /* DetailFarmerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -165,8 +174,11 @@
 		0ADC13B823AA8B230036DE3B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6903E4E923ABC83D0081005A /* CommentCollectionViewCell.swift */,
 				0A4FEA5B23AA8A5400D78987 /* ViewController.swift */,
 				6903E4DF23AAB0400081005A /* FarmersMarketMapView.swift */,
+				6903E4E723ABC4190081005A /* DetailFarmerView.swift */,
+				6903E4ED23ABCF570081005A /* ProduceCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -420,18 +432,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9F0AB523AAAEA30088E46F /* MarketAPIClient.swift in Sources */,
+				6903E4EE23ABCF570081005A /* ProduceCollectionViewCell.swift in Sources */,
 				0ADC13C123AA8ECE0036DE3B /* Utilities.swift in Sources */,
 				6903E4DE23AAAF520081005A /* FarmersMarketMap.swift in Sources */,
 				6903E4E023AAB0400081005A /* FarmersMarketMapView.swift in Sources */,
+				6903E4EC23ABCB840081005A /* DetailFarmerViewController.swift in Sources */,
 				6905D74823AAAE6B00876A5D /* Secrets.swift in Sources */,
 				0ADC13BF23AA8D080036DE3B /* Extensions.swift in Sources */,
 				EC9F0AB123AAAD920088E46F /* NetworkManager.swift in Sources */,
 				EC9F0AB323AAADC40088E46F /* AppError.swift in Sources */,
+				6903E4E823ABC4190081005A /* DetailFarmerView.swift in Sources */,
 				0A4FEA5C23AA8A5400D78987 /* ViewController.swift in Sources */,
 				6903E4E423AACD3B0081005A /* AddressDecoder.swift in Sources */,
 				0A4FEA5823AA8A5400D78987 /* AppDelegate.swift in Sources */,
 				0A4FEA5A23AA8A5400D78987 /* SceneDelegate.swift in Sources */,
 				EC9F0AB723AAAFAA0088E46F /* Market.swift in Sources */,
+				6903E4EA23ABC83D0081005A /* CommentCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

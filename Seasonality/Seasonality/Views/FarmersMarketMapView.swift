@@ -24,9 +24,10 @@ class FarmersMarketMapView: UIView {
     }()
     
     lazy var map:GMSMapView = {
-        let camera = GMSCameraPosition(latitude: 40.752920, longitude: -73.957230, zoom: 10)
+        let camera = GMSCameraPosition(latitude: 40.730610, longitude: -73.935242, zoom: 10)
         let map = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         map.translatesAutoresizingMaskIntoConstraints = false
+        
           return map
       }()
     

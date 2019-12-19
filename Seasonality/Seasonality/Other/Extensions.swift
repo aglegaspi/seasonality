@@ -84,7 +84,26 @@ extension UIViewController {
 //        Utilities.showAlert(on: self, style: .actionSheet, title: nil, message: nil, actions: [signOutAction, cancelAction], completion: nil)
 //    }
 }
-
+extension UILabel {
+    public convenience init(font:UIFont){
+        self.init()
+        self.textAlignment = .center
+        self.textColor = .black
+        self.adjustsFontSizeToFitWidth = true
+        self.numberOfLines = 0
+        self.font = font
+    }
+}
+extension UICollectionViewFlowLayout {
+    public convenience init(placeHolder:String) {
+    self.init()
+        self.scrollDirection = .horizontal
+    self.itemSize = CGSize(width: 250, height:250)
+        self.minimumInteritemSpacing = 20
+        self.minimumLineSpacing = 20
+        self.sectionInset = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+}
+}
 extension Date {
   // get an ISO timestamp
   static func getISOTimestamp() -> String {

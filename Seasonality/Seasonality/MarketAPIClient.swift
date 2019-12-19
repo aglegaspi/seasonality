@@ -20,7 +20,7 @@ struct MarketAPIClient {
             urlString = "https://data.ny.gov/resource/qq4h-8p86.json?city=\(city)"
         } else {
              
-            urlString = "https://data.ny.gov/resource/qq4h-8p86.json?$where=within_circle(georeference,\(lat),\(long),2500)"
+            urlString = "https://data.ny.gov/resource/qq4h-8p86.json?$where=within_circle(georeference,\(lat),\(long),3000)"
         }
         
         print(urlString)
