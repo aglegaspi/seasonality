@@ -82,15 +82,16 @@ class WelcomeViewController: UIViewController {
     @IBAction func loginTapped(_ sender: UIButton) {
         
         let loginVC = LoginViewController()
-        navigationController?.pushViewController(loginVC, animated: true)
+        self.present(loginVC, animated: true)
+        //navigationController?.pushViewController(loginVC, animated: true)
     }
     
     
     @IBAction func singUpTapped(_ sender: UIButton) {
         
         let signUpVC = SignUpViewController()
-        
-            navigationController?.pushViewController(signUpVC, animated: true)
+            self.present(signUpVC, animated: true)
+            //navigationController?.pushViewController(signUpVC, animated: true)
         
     }
 }

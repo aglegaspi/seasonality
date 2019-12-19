@@ -23,12 +23,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         if FirebaseAuthService.manager.currentUser != nil {
             window?.rootViewController = MainTBC()
-        } else {
+        }
+        
+        else {
             let storyboard  = UIStoryboard(name: "Main", bundle: nil)
             guard let welcomeVC = storyboard.instantiateViewController(withIdentifier: "welcomeVC") as? WelcomeViewController else { return }
             self.window?.rootViewController = welcomeVC
             self.window?.makeKeyAndVisible()
         }
+        
         window?.makeKeyAndVisible()
         
     }
